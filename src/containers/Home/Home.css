@@ -1,0 +1,26 @@
+.Home__main {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, 50%);
+}
+
+.main {
+  border: 5px solid #000000;
+}
+.main:nth-of-type(4) {
+  grid-column: 2 / span 2;
+}
+
+.Intro {
+  grid-column: 1 / span 3;
+}
+
+.FinalProject,
+.More {
+  height: 50%;
+}
+
+.More {
+  border-top: 10px solid #000000;
+}

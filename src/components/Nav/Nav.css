@@ -41,7 +41,21 @@
   margin: 1rem 0;
   width: fit-content;
   font-size: 2rem;
+  position: relative;
 }
+.Nav__social-icon:hover {
+  height: 45px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-dasharray: 422, 0;
+}
+
+
 
 .Nav__social-icon.github {
   width: 100%;

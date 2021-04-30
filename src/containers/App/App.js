@@ -3,16 +3,15 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { far } from "@fortawesome/free-regular-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { fas } from "@fortawesome/free-solid-svg-icons";
+import Home from "../Home/Home";
+import About from "../About/About";
 import "./App.css";
-import Nav from "../../components/Nav/Nav";
 
 library.add(far, fab, fas);
 
 function App() {
   return (
-    <div className="Home">
-      <Nav />
-    </div>
+    <About />
   );
 }
 
