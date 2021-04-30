@@ -1,0 +1,19 @@
+.Heading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.Heading__icon {
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  color: rgb(211, 11, 11);
+}
+
+/* .Heading__icon, */
+.Heading__title {
+  font-weight: 500;
+  font-size: 1.8rem;
+}

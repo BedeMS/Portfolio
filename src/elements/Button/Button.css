@@ -1,0 +1,20 @@
+.Button {
+  font-family: "Cormorant Garamond", serif;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 2px;
+  background-color: #c01818;
+  border: none;
+  max-width: 10rem;
+  max-height: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.Button:hover {
+  background-color: #e7bdbd;
+}

@@ -1,0 +1,23 @@
+.CardIcons {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Card__icon {
+  font-size: 1.6rem;
+}
+
+#Card-js {
+  color: #f8fb2e;
+}
+#Card-css3 {
+  color: #1100f8;
+}
+#Card-react {
+  color: #2e87fb;
+}
+#Card-sass {
+  color: #fb2e79;
+}
