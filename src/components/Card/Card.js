@@ -19,11 +19,11 @@ function Card(props) {
         </div>
         <div className="Card__content Card-back">
           <div className="Card__depth">
-            {/* <h1 className="Card__title">{props.title}</h1> */}
-            {props.details && props.details.map(el => {
-                return <p className="Card__desc">{el}</p>
-            })}
-            {/* <Button name={`Visit ${props.title}`} /> */}
+            <h1 className="Card__title">{props.title}</h1>
+            {props.details &&
+              props.details.map((el) => {
+                return <p className="Card__desc">{el}</p>;
+              })}
           </div>
         </div>
       </div>

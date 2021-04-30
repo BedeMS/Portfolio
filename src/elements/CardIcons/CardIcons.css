@@ -1,8 +1,9 @@
 .CardIcons {
-  width: 90%;
-  margin: 1rem auto;
+  width: 100%;
+  padding: 1rem 0;
   display: flex;
   justify-content: space-around;
+  transition: all 0.5s ease-out;
 }
 
 .Card__icon {

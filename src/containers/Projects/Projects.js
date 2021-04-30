@@ -12,12 +12,12 @@ function Projects(props) {
         <div className="Project__set">
           <Project />
           <Project />
-          <Project />
+          <Project zoom />
         </div>
         <img src={trail} className="map__trail" />
         <div className="Project__set">
           <Project />
-          <Project />
+          <Project zoom />
           <Project />
         </div>
       </div>

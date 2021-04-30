@@ -1,0 +1,55 @@
+.ZoomCard {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: 17.5rem;
+  background-repeat: no-repeat;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  transition: all 1s ease-in-out;
+}
+
+.ZoomCard__depth {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(69, 89, 219, 0.788);
+  transition: all 0.3s ease-in 1.2s;
+}
+
+.ZoomCard__title {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.ZoomCard__desc {
+  font-size: 1.2rem;
+  margin: 1rem auto;
+  color: #ffffff;
+}
+
+.ZoomCard:hover {
+  background-size: 50rem;
+}
+
+.ZoomCard:hover .CardIcons {
+  display: none;
+}
+
+.ZoomCard:hover .ZoomCard__depth {
+  /* display: flex; */
+  visibility: visible;
+}
+
+.ZoomCard .CardIcons {
+  /* margin: 0 1rem; */
+  background-color: rgba(0, 0, 0, 0.8);
+}
