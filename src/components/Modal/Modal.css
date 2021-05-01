@@ -1,0 +1,53 @@
+.Modal-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.Modal-container {
+  width: 75%;
+  height: 75%;
+  margin: 3rem auto 0;
+}
+
+.Modal {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.Modal::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.Modal::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0); /* color of the tracking area */
+}
+
+.Modal::-webkit-scrollbar-thumb {
+  background-color: #0047ff; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+}
+
+.Modal__links {
+  display: flex;
+}
+
+/* modal */
+.Modal__video {
+  width: 95%;
+  height: 95%;
+  margin: auto;
+}
+
+.Modal__scroll {
+  font-size: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+  text-align: center;
+  margin-bottom: 10%;
+}

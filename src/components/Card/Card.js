@@ -2,6 +2,7 @@ import React from "react";
 import "./Card.css";
 import CardIcons from "../../elements/CardIcons/CardIcons";
 import Button from "../../elements/Button/Button";
+import uniqid from "uniqid";
 
 function Card(props) {
   return (
@@ -22,7 +23,11 @@ function Card(props) {
             <h1 className="Card__title">{props.title}</h1>
             {props.details &&
               props.details.map((el) => {
-                return <p className="Card__desc">{el}</p>;
+                return (
+                  <p key={uniqid()} className="Card__desc">
+                    {el}
+                  </p>
+                );
               })}
           </div>
         </div>

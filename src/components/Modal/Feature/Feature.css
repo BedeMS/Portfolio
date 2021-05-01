@@ -1,0 +1,36 @@
+.Feature {
+  width: 90%;
+  height: 100%;
+  margin: 5% auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Feature.small {
+  height: 45%;
+  margin: 5% auto;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.Feature__info {
+  height: 95%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Feature__desc {
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+
+.Feature__img {
+  height: 95%;
+  width: 45%;
+  margin: auto 0;
+  background-color: #000000;
+}

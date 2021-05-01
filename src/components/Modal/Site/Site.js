@@ -1,17 +1,22 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Site.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Site(props) {
   return (
-    <div className="Site" style={{ backgroundColor: `${props.bacground}` }}>
-      {props.title === "github" ? (
+    <Link
+      to={props.to}
+      className="Site"
+      style={{ backgroundColor: `${props.background}` }}
+    >
+      {props.title === "Github" ? (
         <FontAwesomeIcon className="Site__icon" icon={["fab", "github"]} />
       ) : (
         <FontAwesomeIcon className="Site__icon" icon={["fas", "eye"]} />
       )}
       <p className="Site__link">{props.title}</p>
-    </div>
+    </Link>
   );
 }
 
