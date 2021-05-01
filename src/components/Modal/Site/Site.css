@@ -1,0 +1,8 @@
+.Site {
+  color: #ffffff;
+  font-size: 2rem;
+  display: flex;
+}
+.Site__icon {
+  margin-right: 2rem;
+}
