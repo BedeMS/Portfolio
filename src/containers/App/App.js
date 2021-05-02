@@ -10,6 +10,9 @@ import About from "../About/About";
 import Projects from "../Projects/Projects";
 import Contact from "../Contact/Contact";
 import "./App.css";
+import { init } from "emailjs-com";
+
+init("user_weN16nmdoy17uIQkz6WIW");
 
 library.add(far, fab, fas);
 
