@@ -12,10 +12,10 @@ function Modal() {
         <div className="Modal">
           <div className="Modal__video">
             <Video />
+            <Jump delay={3000} top>
+              <p className="Modal__scroll">Scrrooollll</p>
+            </Jump>
           </div>
-          <Jump delay={3000} top>
-            <p className="Modal__scroll">Scrrooollll</p>
-          </Jump>
 
           <Feature reverse />
           <Feature />
