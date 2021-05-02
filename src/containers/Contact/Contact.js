@@ -8,6 +8,7 @@ import checkForm from "../../validation/contactValidation";
 import emailjs from "emailjs-com";
 import useToggle from "../../hooks/useToggleHook";
 import "./Contact.css";
+import Confirmation from "./Confirmation/Confirmation";
 
 const contactForm = {
   name: "",
@@ -36,18 +37,30 @@ function Contact(props) {
   };
 
   const sendEmail = () => {
-    emailjs.send("default_service", "template_7mnmar9", contact).then(
-      (response) => {
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      (err) => {
-        console.log("FAILED...", err);
-      }
-    );
+    emailjs
+      .send(
+        "default_service",
+        "template_7mnmar9",
+        contact,
+        "user_weNl6nmdoyl7uIQkz6WIW"
+      )
+      .then(
+        (response) => {
+          props.history.push("/Confirmation");
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        (err) => {
+          setErrors({
+            fail: "Server seems to have stalled. Please try it again.",
+          });
+          console.log("FAILED...", err);
+        }
+      );
   };
 
   return (
     <form className="Contact" onSubmit={handleSubmit}>
+      <h1>Let's get in Touch</h1>
       <Input
         colorScheme="dark"
         label="Name"
@@ -72,6 +85,7 @@ function Contact(props) {
       />
       {errors.message && <Error error={errors.message} />}
       <Button type="submit" name="Submit" />
+      {errors.fail && <Error error={errors.fail} />}
     </form>
   );
 }
