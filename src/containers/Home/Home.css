@@ -6,7 +6,7 @@
 }
 
 .main {
-  border: 5px solid #000000;
+  border: 1px solid #000000;
 }
 .main:nth-of-type(4) {
   grid-column: 2 / span 2;
@@ -16,11 +16,16 @@
   grid-column: 1 / span 3;
 }
 
+.main.Project {
+  margin: 0;
+  width: 100%;
+}
+
 .FinalProject,
 .More {
   height: 50%;
 }
 
 .More {
-  border-top: 10px solid #000000;
+  border-top: 1px solid #000000;
 }

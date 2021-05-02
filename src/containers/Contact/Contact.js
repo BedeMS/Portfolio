@@ -7,15 +7,12 @@ import Button from "../../elements/Button/Button";
 
 function Contact(props) {
   return (
-    <div className="App">
-      <Nav />
-      <form className="Contact">
-        <Input colorScheme="dark" label="Name" />
-        <Input colorScheme="dark" label="E-mail" />
-        <Textarea label="Message" />
-        <Button type="submit" name="Submit" />
-      </form>
-    </div>
+    <form className="Contact">
+      <Input colorScheme="dark" label="Name" />
+      <Input colorScheme="dark" label="E-mail" />
+      <Textarea label="Message" />
+      <Button type="submit" name="Submit" />
+    </form>
   );
 }
 

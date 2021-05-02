@@ -10,13 +10,13 @@ function Nav(props) {
         Bede Marcos
       </Link>
       <div className="Nav__list">
-        <Link to="/" className="Nav__list-item">
+        <Link to="/About" className="Nav__list-item">
           About
         </Link>
-        <Link to="/" className="Nav__list-item">
+        <Link to="/Projects" className="Nav__list-item">
           Projects
         </Link>
-        <Link to="/" className="Nav__list-item">
+        <Link to="/Contact" className="Nav__list-item">
           Contact
         </Link>
       </div>

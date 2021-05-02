@@ -10,7 +10,7 @@ function Video(props) {
       url={Practice}
       width="100%"
       height="100%"
-      // playing={true}
+      playing={true}
       muted={true}
       // controls={true}
     />

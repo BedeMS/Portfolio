@@ -2,14 +2,11 @@ import React from "react";
 import "./Input.css";
 
 function Input(props) {
-
   return (
     <div className="InputWrapper">
       {props.label ? (
         <label
-          className={
-            props.colorScheme === "dark" ? "LabelDark" : "Label"
-          }
+          className={props.colorScheme === "dark" ? "LabelDark" : "Label"}
           htmlFor={props.name}
         >
           {props.label}:
