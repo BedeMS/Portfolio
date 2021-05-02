@@ -1,0 +1,10 @@
+.Contact {
+  width: 50%;
+  height: 75%;
+  border: 2px solid #000000;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}

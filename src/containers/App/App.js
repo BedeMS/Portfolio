@@ -6,12 +6,13 @@ import { fas } from "@fortawesome/free-solid-svg-icons";
 import Home from "../Home/Home";
 import About from "../About/About";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 import "./App.css";
 
 library.add(far, fab, fas);
 
 function App() {
-  return <Projects />;
+  return <Contact />;
 }
 
 export default App;
