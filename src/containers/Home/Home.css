@@ -6,7 +6,7 @@
 }
 
 .main {
-  border: 1px solid #000000;
+  /* border: 1px solid #000000; */
 }
 .main:nth-of-type(4) {
   grid-column: 2 / span 2;
@@ -21,11 +21,30 @@
   width: 100%;
 }
 
+.main.Project img {
+  height: 100%;
+  width: 100%;
+}
+
 .FinalProject,
 .More {
   height: 50%;
 }
 
+.FinalProject img {
+  height: 100%;
+  width: 100%;
+}
+
 .More {
-  border-top: 1px solid #000000;
+  /* border-top: 1px solid #000000; */
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.More__link {
+  /* color: #000000; */
+  font-size: 3rem;
 }
