@@ -43,6 +43,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #000000;
 }
 
 .Card-front:after {
@@ -64,8 +65,8 @@
 .Card-back {
   transform: rotateX(180deg);
   transform-style: preserve-3d;
-  /* background-color: #000000; */
-  background-image: linear-gradient(to right bottom, #348cf1, #3282fa);
+  background-color: #000000;
+  /* background-image: linear-gradient(to right bottom, #348cf1, #3282fa); */
   height: 100%;
   text-align: center;
   margin-bottom: 1rem;
