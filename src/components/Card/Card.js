@@ -10,7 +10,7 @@ function Card(props) {
       <div className="Card">
         <div
           className="Card__content Card-front"
-          style={{ backgroundImage: `url(${props.img})` }}
+          style={{ backgroundImage: `url(${props.backgroundImg})` }}
         >
           <div className="Card__depth">
             <div className="Card__front-icons">

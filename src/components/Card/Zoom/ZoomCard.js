@@ -5,7 +5,7 @@ import uniqid from "uniqid";
 
 function ZoomCard(props) {
   return (
-    <div className="ZoomCard" style={{ backgroundImage: `url(${props.img})` }}>
+    <div className="ZoomCard" style={{ backgroundImage: `url(${props.backgroundImg})` }}>
       <div className="ZoomCard__depth">
         <h1 className="ZoomCard__title">{props.title}</h1>
         {props.details &&
