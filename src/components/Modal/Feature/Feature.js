@@ -1,6 +1,7 @@
 import React from "react";
-import "./Feature.css";
+import uniqid from "uniqid";
 import Fade from "react-reveal/Fade";
+import "./Feature.css";
 
 function Feature(props) {
   return (
@@ -11,15 +12,18 @@ function Feature(props) {
     >
       <div className="Feature__info">
         <Fade right delay={1000}>
-          <p className="Feature__desc">Animate Group</p>
-          <p className="Feature__desc">Animate Group</p>
-          <p className="Feature__desc">Animate Group</p>
-          <p className="Feature__desc">Animate Group</p>
+          {props.desc.map((item) => {
+            return (
+              <p key={uniqid()} className="Feature__desc">
+                {item}
+              </p>
+            );
+          })}
         </Fade>
       </div>
       <Fade left delay={2000}>
         <div className="Feature__img">
-          <img alt="Feature Image" />
+          <img src={props.featureImg} alt="Feature Image" />
         </div>
       </Fade>
     </div>

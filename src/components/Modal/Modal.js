@@ -1,4 +1,5 @@
 import React from "react";
+import uniqid from "uniqid";
 import Site from "./Site/Site";
 import Feature from "./Feature/Feature";
 import Video from "../../elements/Video/Video";
@@ -6,7 +7,6 @@ import Jump from "react-reveal/Jump";
 import "./Modal.css";
 
 function Modal(props) {
-  console.log(props);
   const handleClick = () => {
     props.closeModal();
   };
@@ -16,24 +16,22 @@ function Modal(props) {
       <div className="Modal-container">
         <div className="Modal">
           <div className="Modal__video">
-            <Video />
+            <Video video={props.video} />
             <Jump delay={3000} top>
               <p className="Modal__scroll">Scrrooollll</p>
             </Jump>
           </div>
-
-          <Feature reverse />
-          <Feature />
-
-          <Feature small />
-          <Feature small reverse />
-          <Feature />
-          <Feature />
-          <Feature />
+          {props.project.features.map((feature) => {
+            return <Feature key={uniqid()} {...feature} />;
+          })}
         </div>
         <div className="Modal__links">
-          <Site to="/" title="Github" background="#000000" />
-          <Site to="/" title="Visit Website" background="#0047ff" />
+          <Site to={props.project.link} title="Github" background="#000000" />
+          <Site
+            to={props.project.github}
+            title="Visit Website"
+            background="#0047ff"
+          />
         </div>
       </div>
     </div>

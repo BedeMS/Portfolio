@@ -1,4 +1,4 @@
-import uniqid from "uniqid";
+import uniqid from "uniqid"; 
 import jobIncBackground from "./jobincBackground.png";
 import video from "../../assets/videos/practice.mov";
 
@@ -16,7 +16,22 @@ export default {
     {
       desc: ["Cart Feature", "Updated on every page"],
       featureImg: jobIncBackground,
+    },
+    {
+      desc: ["Cart Feature", "Updated on every page"],
+      featureImg: jobIncBackground,
       small: true,
+    },
+    {
+      desc: ["Cart Feature", "Updated on every page"],
+      featureImg: jobIncBackground,
+      small: true,
+      reverse: true,
+    },
+    {
+      desc: ["Cart Feature", "Updated on every page"],
+      featureImg: jobIncBackground,
+      reverse: true,
     },
   ],
 };
