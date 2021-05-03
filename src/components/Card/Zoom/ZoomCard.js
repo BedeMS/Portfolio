@@ -4,8 +4,16 @@ import CardIcons from "../../../elements/CardIcons/CardIcons";
 import uniqid from "uniqid";
 
 function ZoomCard(props) {
+  const handleClick = () => {
+    props.handleClick(props.id);
+  };
+
   return (
-    <div className="ZoomCard" style={{ backgroundImage: `url(${props.backgroundImg})` }}>
+    <div
+      onClick={handleClick}
+      className="ZoomCard"
+      style={{ backgroundImage: `url(${props.backgroundImg})` }}
+    >
       <div className="ZoomCard__depth">
         <h1 className="ZoomCard__title">{props.title}</h1>
         {props.details &&

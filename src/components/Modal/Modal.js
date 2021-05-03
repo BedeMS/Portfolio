@@ -5,9 +5,14 @@ import Video from "../../elements/Video/Video";
 import Jump from "react-reveal/Jump";
 import "./Modal.css";
 
-function Modal() {
+function Modal(props) {
+  console.log(props);
+  const handleClick = () => {
+    props.closeModal();
+  };
+
   return (
-    <div className="Modal-wrapper">
+    <div className="Modal-wrapper" onClick={handleClick}>
       <div className="Modal-container">
         <div className="Modal">
           <div className="Modal__video">

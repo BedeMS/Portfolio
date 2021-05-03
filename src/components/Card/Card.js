@@ -5,8 +5,14 @@ import Button from "../../elements/Button/Button";
 import uniqid from "uniqid";
 
 function Card(props) {
+
+  const handleClick = () => {
+    props.handleClick(props.id)
+  }
+
+
   return (
-    <div className="Card__container">
+    <div className="Card__container" onClick={handleClick}>
       <div className="Card">
         <div
           className="Card__content Card-front"

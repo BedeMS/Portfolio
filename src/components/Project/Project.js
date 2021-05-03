@@ -8,21 +8,24 @@ import Modal from "../Modal/Modal";
 function Project(props) {
   return (
     <div className="Project">
-      {/* <Modal /> */}
       <div className="Project__card">
         {props.zoom ? (
           <ZoomCard
+            id={props.id}
             backgroundImg={props.backgroundImg}
             title={props.title}
             stack={props.stack}
             details={props.details}
+            handleClick={props.handleClick}
           />
         ) : (
           <Card
+            id={props.id}
             backgroundImg={props.backgroundImg}
             title={props.title}
             stack={props.stack}
             details={props.details}
+            handleClick={props.handleClick}
           />
         )}
       </div>
