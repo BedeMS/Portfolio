@@ -32,5 +32,12 @@
   height: 95%;
   width: 45%;
   margin: auto 0;
-  background-color: #000000;
+  /* background-color: #000000; */
+  display: flex;
+  justify-content: center;
+}
+
+.Feature__img img {
+  width: auto;
+  height: 100%;
 }

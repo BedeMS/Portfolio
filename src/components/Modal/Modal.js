@@ -26,9 +26,9 @@ function Modal(props) {
           })}
         </div>
         <div className="Modal__links">
-          <Site to={props.project.link} title="Github" background="#000000" />
+          <Site to={props.project.github} title="Github" background="#000000" />
           <Site
-            to={props.project.github}
+            to={props.project.link}
             title="Visit Website"
             background="#0047ff"
           />
