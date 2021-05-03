@@ -24,7 +24,7 @@ function Home() {
         <div className="FinalProject">
           <img src={khariBackground} alt="JobInc Background" />
         </div>
-        <div className="More">
+        <div className="More__container">
           <Link className="More__link" to="/Projects">
             More Projects
           </Link>
