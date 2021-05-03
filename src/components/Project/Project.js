@@ -10,10 +10,8 @@ function Project(props) {
     "https://www.liquidplanner.com/wp-content/uploads/2019/04/HiRes-17.jpg";
   return (
     <div className="Project">
-      <Modal />
-      {/* <Heading title="Asset Management" /> */}
+      {/* <Modal /> */}
       <div className="Project__card">
-        {/* each project will need all of these */}
         {props.zoom ? (
           <ZoomCard
             img={img}

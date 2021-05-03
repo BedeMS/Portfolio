@@ -11,13 +11,16 @@ function Projects(props) {
         <Project />
         <Project />
         <Project zoom />
-      </div>
-      <img src={trail} className="map__trail" />
-      <div className="Project__set">
         <Project />
         <Project zoom />
         <Project />
       </div>
+      {/* <img src={trail} className="map__trail" /> */}
+      {/* <div className="Project__set">
+        <Project />
+        <Project zoom />
+        <Project />
+      </div> */}
     </div>
   );
 }
