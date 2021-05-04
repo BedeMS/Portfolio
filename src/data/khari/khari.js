@@ -1,6 +1,12 @@
 import uniqid from "uniqid";
 import khariBackground from "./khariBackground.png";
-import video from "../../assets/videos/practice.mov";
+import cart from "./cart.png";
+import cartOptions from "./cartOptions.png";
+import featuredProduct from "./featuredProduct.png";
+import products from "./products.png";
+import responsive from "./responsive.png";
+import selector from "./selector.png";
+import video from "./khariVideo.mov";
 
 export default {
   id: uniqid(),
@@ -14,9 +20,33 @@ export default {
   zoom: false,
   features: [
     {
-      desc: ["Cart Feature", "Updated on every page"],
-      featureImg: khariBackground,
+      desc: ["Cart Feature", "Number of Items", "Updated on every page"],
+      featureImg: cart,
       small: true,
+    },
+    {
+      desc: ["Delete", "Edit", "Updated Prices"],
+      featureImg: cartOptions,
+      reverse: true,
+    },
+    {
+      desc: ["Various Product Selection", "Sub-Category on each Product"],
+      featureImg: products,
+    },
+    {
+      desc: ["Showcase Feature Product", "Multiple Features"],
+      featureImg: featuredProduct,
+      small: true,
+      reverse: true,
+    },
+    {
+      desc: ["Size based on Availability", "Color based on Availability"],
+      featureImg: selector,
+      small: true,
+    },
+    {
+      desc: ["Responsive", "Sleek Modern Design"],
+      featureImg: responsive,
     },
   ],
 };

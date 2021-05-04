@@ -11,7 +11,7 @@ function Video(props) {
       height="100%"
       playing={true}
       muted={true}
-      // controls={true}
+      controls={true}
     />
   );
 }

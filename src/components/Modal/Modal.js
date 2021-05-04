@@ -7,8 +7,12 @@ import Jump from "react-reveal/Jump";
 import "./Modal.css";
 
 function Modal(props) {
-  const handleClick = () => {
-    props.closeModal();
+  console.log(props.project);
+
+  const handleClick = (e) => {
+    if (e.target.classList.contains("Modal-wrapper")) {
+      props.closeModal();
+    }
   };
 
   return (
@@ -16,7 +20,7 @@ function Modal(props) {
       <div className="Modal-container">
         <div className="Modal">
           <div className="Modal__video">
-            <Video video={props.video} />
+            <Video video={props.project.video} />
             <Jump delay={3000} top>
               <p className="Modal__scroll">Scrrooollll</p>
             </Jump>
