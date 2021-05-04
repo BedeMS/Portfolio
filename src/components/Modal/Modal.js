@@ -30,12 +30,20 @@ function Modal(props) {
           })}
         </div>
         <div className="Modal__links">
-          <Site to={props.project.github} title="Github" background="#000000" />
-          <Site
-            to={props.project.link}
-            title="Visit Website"
-            background="#0047ff"
-          />
+          {props.project.github && (
+            <Site
+              to={props.project.github}
+              title="Github"
+              background="#000000"
+            />
+          )}
+          {props.project.link && (
+            <Site
+              to={props.project.link}
+              title="Visit Website"
+              background="#0047ff"
+            />
+          )}
         </div>
       </div>
     </div>

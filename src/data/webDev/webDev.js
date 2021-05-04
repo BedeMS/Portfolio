@@ -14,7 +14,7 @@ export default {
   backgroundImg: webdevBackground,
   link: "www.webdev.com",
   github: "www.github.com/bedemarcos",
-  details: ["Developer Guide", "Self Taught Roadmap", "Cirricullum"],
+  details: ["Developer Guide", "Self Taught Roadmap", "Cirriculum"],
   video: video,
   zoom: true,
   features: [

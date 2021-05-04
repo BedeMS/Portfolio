@@ -1,22 +1,29 @@
 import uniqid from "uniqid";
 import myfinanceBackground from "./myfinanceBackground.png";
-import video from "../../assets/videos/practice.mov";
+import grid from "./grid.png";
+import form from "./form.png";
+import video from "./myFinanceVideo.mov";
 
 export default {
   id: uniqid(),
-  title: "My Finances",
+  title: "*My Finances",
   stack: ["react", "css3"],
   backgroundImg: myfinanceBackground,
-  link: "www.myfinance.com",
-  github: "www.github.com/bedemarcos",
-  details: ["Personal Finance", "Asset Manager", "Goal Tracker"],
+  // link: "www.myfinance.com",
+  // github: "www.github.com/bedemarcos",
+  details: ["(Currently in Progress)", "Personal Finance", "Asset Manager", "Goal Tracker"],
   video: video,
   zoom: false,
   features: [
     {
-      desc: ["Cart Feature", "Updated on every page"],
-      featureImg: myfinanceBackground,
-      small: true,
-    },
+      desc: ["Real Estate Account Data", "Controlled Input"],
+      featureImg: form,
+      // small: true,
+    },    
+    {
+      desc: ["Dashboard Layout", "Responsive Grid"],
+      featureImg: grid,
+      // small: true,
+    }
   ],
 };
