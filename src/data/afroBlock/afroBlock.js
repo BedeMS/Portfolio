@@ -2,7 +2,7 @@ import uniqid from "uniqid";
 import afroblockBackground from "./afroblockBackground.png";
 import responsive from "./responsive.png";
 import formControl from "./formControl.png";
-import formValidation from "./formControl2.png";
+import formValidation from "./formValidation.png";
 import layout from "./layout.png";
 import afroBlockVideo from "./afroBlockVideo.mov";
 
@@ -25,16 +25,17 @@ export default {
       desc: ["Animated Form", "Responsive Form"],
       featureImg: formControl,
       small: true,
+      reverse: true,
     },
     {
-      desc: ["Form Validation"],
+      desc: ["Form Validation", "User friendly Design"],
       featureImg: formValidation,
       small: true,
-      reverse: true,
     },
     {
       desc: ["Responsive Design"],
       featureImg: responsive,
+      reverse: true,
     },
   ],
 };

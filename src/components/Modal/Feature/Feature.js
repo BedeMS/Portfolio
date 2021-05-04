@@ -19,6 +19,7 @@ function Feature(props) {
               </p>
             );
           })}
+          <p>  </p>
         </Fade>
       </div>
       <Fade left delay={2000}>
