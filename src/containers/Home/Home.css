@@ -5,16 +5,20 @@
   grid-template-rows: repeat(2, 50%);
 }
 
-.main:nth-of-type(4) {
-  grid-column: 2 / span 2;
-  justify-self: flex-end;
-}
 
 .Intro {
   grid-column: 1 / span 3;
   background-color: pink;
 }
 
+
+
+
+/* 
+.main:nth-of-type(4) {
+  grid-column: 2 / span 2;
+  justify-self: flex-end;
+}
 .main.Project {
   margin: 0;
   width: 100%;
@@ -54,7 +58,7 @@
   font-size: 3rem;
 }
 
-/* Hovers */
+//hovers
 .main:nth-of-type(3):hover + .main:nth-of-type(4) {
   width: 75%;
 }
@@ -69,4 +73,4 @@
 
 .FinalProject:hover {
   height: 100%;
-}
+} */
