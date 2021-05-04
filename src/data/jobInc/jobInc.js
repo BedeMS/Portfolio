@@ -1,6 +1,13 @@
-import uniqid from "uniqid"; 
+import uniqid from "uniqid";
 import jobIncBackground from "./jobincBackground.png";
-import video from "../../assets/videos/practice.mov";
+import companies from "./companies.png";
+import editJob from "./editJob.png";
+import follow from "./follow.png";
+import saved from "./saved.png";
+import formValidation from "./formValidation.png";
+import featuredJobs from "./featuredJobs.png";
+
+import video from "./jobIncVideo.mov";
 
 export default {
   id: uniqid(),
@@ -14,23 +21,39 @@ export default {
   zoom: false,
   features: [
     {
-      desc: ["Cart Feature", "Updated on every page"],
-      featureImg: jobIncBackground,
-    },
-    {
-      desc: ["Cart Feature", "Updated on every page"],
-      featureImg: jobIncBackground,
+      desc: ["Featured Jobs Section", "Top Jobs / Promoted Jobs"],
+      featureImg: featuredJobs,
       small: true,
     },
     {
-      desc: ["Cart Feature", "Updated on every page"],
-      featureImg: jobIncBackground,
+      desc: [
+        "Featured Companies Section",
+        "Top Companies / Promoted Companies",
+      ],
+      featureImg: companies,
       small: true,
       reverse: true,
     },
     {
-      desc: ["Cart Feature", "Updated on every page"],
-      featureImg: jobIncBackground,
+      desc: ["Ability to Save Jobs"],
+      featureImg: saved,
+      small: true,
+      reverse: true,
+    },
+    {
+      desc: ["Follow Companies"],
+      featureImg: follow,
+      small: true,
+    },
+    {
+      desc: ["Create Job", "Form Validation"],
+      featureImg: formValidation,
+      small: true,
+    },
+    {
+      desc: ["Manage Jobs", "Edit Job Post", "Delete Post"],
+      featureImg: editJob,
+      small: true,
       reverse: true,
     },
   ],
