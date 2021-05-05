@@ -24,7 +24,7 @@ function Nav(props) {
         <Link to="/" className="Nav__social-icon github">
           Github: BedeMarcos
         </Link>
-        <Link to="/" className="Nav__social-icon">
+        {/* <Link to="/" className="Nav__social-icon">
           <FontAwesomeIcon icon={["fab", "linkedin"]} />
         </Link>
         <Link to="/" className="Nav__social-icon">
@@ -32,7 +32,7 @@ function Nav(props) {
         </Link>
         <Link to="/" className="Nav__social-icon">
           <FontAwesomeIcon icon={["fab", "github"]} />
-        </Link>
+        </Link> */}
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "../../components/Nav/Nav";
+import Profile from "../../assets/img/profile.jpeg";
 import Progress from "../../components/Progress/Progress";
 import "./About.css";
 
@@ -7,11 +7,13 @@ function About(props) {
   return (
     <div className="About">
       <div className="LeftSide">
-        <div className="Photo"></div>
+        <div className="Photo">
+          <img src={Profile} alt="About Picture" />
+        </div>
         <div className="Skills">
           <Progress label="HTML5/CSS/SASS" width="90" />
           <Progress label="Javascript" width="80" />
-          <Progress label="React" width="75" />
+          <Progress label="React" width="70" />
           <Progress label="Node" width="50" />
           <Progress label="Python" width="0" goal="Goal: End of 2021" />
         </div>
