@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import useToggle from "../../hooks/useToggleHook";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Switch, Route } from "react-router-dom";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { far } from "@fortawesome/free-regular-svg-icons";
@@ -19,7 +19,8 @@ library.add(far, fab, fas);
 
 function App() {
   const [modalProject, setModalProject] = useState({});
-  const [modal, toggleModal] = useToggle();
+  const [modal, toggleModal] = useToggle(false);
+  const [isNavOpen, toggleNav] = useToggle(false);
 
   const openModal = (id) => {
     setModalProject(getProject(id));
@@ -31,9 +32,19 @@ function App() {
     return project;
   };
 
+  const navToggle = () => {
+    toggleNav();
+    console.log(isNavOpen);
+  };
+
   return (
     <div className="App">
-      <Nav />
+      <FontAwesomeIcon
+        icon={["fas", "barcode"]}
+        className="Nav__open"
+        onClick={() => navToggle()}
+      />
+      <Nav navToggle={navToggle} isNavOpen={isNavOpen} />
       <Switch>
         <Route
           exact

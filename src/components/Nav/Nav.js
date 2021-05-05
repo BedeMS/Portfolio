@@ -3,9 +3,14 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Nav.css";
 
-function Nav(props) {
+function Nav({ isNavOpen, navToggle }) {
   return (
-    <div className="Nav">
+    <div className={`Nav ${isNavOpen && "Nav__view"}`}>
+      <FontAwesomeIcon
+        icon={["fas", "eye-slash"]}
+        className="Nav__close"
+        onClick={() => navToggle()}
+      />
       <Link to="/" className="Nav__logo">
         Bede Marcos
       </Link>

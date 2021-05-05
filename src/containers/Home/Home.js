@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Home({history, openModal }) {
   const handleClick = (e) => {

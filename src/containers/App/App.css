@@ -3,5 +3,22 @@
   height: 100vh;
   display: flex;
   overflow: hidden;
+  position: relative;
 }
 
+.Nav__open {
+  z-index: 40;
+  font-size: 3rem;
+  color: #2514be;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  display: none;
+}
+
+@media screen and (max-width: 636px) {
+  .Nav__open {
+    display: block;
+    cursor: pointer;
+  }
+}

@@ -6,6 +6,8 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  transition: all .5s ease-in;
 }
 
 .Nav__logo {
@@ -43,20 +45,69 @@
   font-size: 2rem;
   position: relative;
 }
-/* .Nav__social-icon:hover {
-  height: 45px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  fill: none;
-  stroke: #fff;
-  stroke-width: 2;
-  stroke-dasharray: 422, 0;
-} */
 
 .Nav__social-icon.github {
   width: 100%;
   text-align: center;
   font-size: 1.5rem;
+}
+
+.Nav__close {
+  z-index: 40;
+  font-size: 3rem;
+  color: #2514be;
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  display: none;
+}
+
+.Nav.Nav__view {
+  transform: translateX(100%);
+}
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1336px) {
+}
+
+@media screen and (max-width: 1136px) {
+}
+
+@media screen and (max-width: 836px) {
+  .Nav__logo {
+    margin: 1rem auto 0;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .Nav__open,
+  .Nav__close {
+    display: block;
+  }
+
+  .Nav {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    z-index: 100;
+  }
+  .Nav__logo {
+    width: 80%;
+    margin: 2rem auto 0;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Nav__logo {
+    width: 50%;
+    margin: 2rem 0 0;
+    font-size: 3rem;
+    font-weight: 700;
+  }
 }

@@ -47,7 +47,7 @@
   color: transparent;
   background-image: url("../../assets//img/whirlpool.png");
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-clip: text;
 }
@@ -141,4 +141,61 @@
   text-transform: uppercase;
   text-decoration: underline;
   z-index: 10;
+}
+
+@media screen and (max-width: 1500px) {
+  .Intro__m,
+  .Intro__b {
+    font-size: 40rem;
+  }
+}
+
+@media screen and (max-width: 1336px) {
+  .Intro__m,
+  .Intro__b {
+    font-size: 30rem;
+    line-height: 2;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .Intro__m,
+  .Intro__b {
+    font-size: 25rem;
+    line-height: 2.2;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .Intro__m,
+  .Intro__b {
+    font-size: 20rem;
+    line-height: 2.8;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .Home__main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .Intro {
+    width: 100%;
+    height: 50%;
+  }
+
+  .Intro__m,
+  .Intro__b {
+    font-size: 25rem;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Intro__m,
+  .Intro__b {
+    font-size: 20rem;
+    line-height: 1.5;
+  }
 }
