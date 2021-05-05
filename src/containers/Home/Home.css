@@ -123,9 +123,14 @@
 .Project__title {
   font-size: 3rem;
   font-weight: 600;
-  color: #ffffff;
+  color: #ffffff6f;
   text-transform: uppercase;
   z-index: 10;
+}
+
+.Project__title:hover {
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .Project__More {

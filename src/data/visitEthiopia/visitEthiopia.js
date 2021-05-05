@@ -8,7 +8,7 @@ import map from "./map.png";
 import video from "./visitEthiopiaVideo.mov";
 
 export default {
-  id: uniqid(),
+  id: "visitEthiopia",
   title: "Visit Ethiopia",
   stack: ["js", "sass"],
   backgroundImg: visitEthiopiaBackground,

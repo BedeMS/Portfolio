@@ -10,7 +10,7 @@ import featuredJobs from "./featuredJobs.png";
 import video from "./jobIncVideo.mov";
 
 export default {
-  id: uniqid(),
+  id: "jobInc",
   title: "Job Inc",
   stack: ["react", "css3"],
   backgroundImg: jobIncBackground,

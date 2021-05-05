@@ -5,13 +5,13 @@ import form from "./form.png";
 import video from "./myFinanceVideo.mov";
 
 export default {
-  id: uniqid(),
-  title: "*My Finances",
+  id: "myFinances",
+  title: "My Finances",
   stack: ["react", "css3"],
   backgroundImg: myfinanceBackground,
   // link: "www.myfinance.com",
   // github: "www.github.com/bedemarcos",
-  details: ["(Currently in Progress)", "Personal Finance", "Asset Manager", "Goal Tracker"],
+  details: ["*(Currently in Progress)*", "Personal Finance", "Asset Manager", "Goal Tracker"],
   video: video,
   zoom: false,
   features: [

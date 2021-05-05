@@ -9,7 +9,7 @@ import selector from "./selector.png";
 import video from "./khariVideo.mov";
 
 export default {
-  id: uniqid(),
+  id: "khari",
   title: "Khari",
   stack: ["js", "css3"],
   backgroundImg: khariBackground,

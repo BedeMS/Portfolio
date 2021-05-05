@@ -8,7 +8,7 @@ import animatedBackground2 from "./animatedBackground2.png";
 import video from "./webDevVideo.mov";
 
 export default {
-  id: uniqid(),
+  id: "webDev",
   title: "Web Dev Roadmap",
   stack: ["js", "sass"],
   backgroundImg: webdevBackground,

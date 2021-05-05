@@ -7,7 +7,7 @@ import layout from "./layout.png";
 import afroBlockVideo from "./afroBlockVideo.mov";
 
 export default {
-  id: uniqid(),
+  id: "afroBlock",
   title: "Afro-Block",
   stack: ["js", "sass"],
   backgroundImg: afroblockBackground,
