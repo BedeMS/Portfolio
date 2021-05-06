@@ -164,6 +164,10 @@
     font-size: 25rem;
     line-height: 2.2;
   }
+  .Project__title,
+  .Project__More {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 836px) {
@@ -171,6 +175,10 @@
   .Intro__b {
     font-size: 20rem;
     line-height: 2.8;
+  }
+  .Project__title,
+  .Project__More {
+    font-size: 1.7rem;
   }
 }
 
