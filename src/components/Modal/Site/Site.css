@@ -16,3 +16,9 @@
   transform: scale(1.01);
   box-shadow: 0 5px 8px rgba(88, 88, 88, 0.7);
 }
+
+@media screen and (max-width: 636px) {
+  .Site {
+    width: 100%;
+  }
+}

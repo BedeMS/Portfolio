@@ -7,8 +7,10 @@
 }
 
 .Feature.small {
-  height: 45%;
+  height: auto;
   margin: 5% auto;
+  display: flex;
+  align-items: center;
 }
 
 .reverse {
@@ -16,8 +18,8 @@
 }
 
 .Feature__info {
-  height: 95%;
-  width: 45%;
+  height: 100%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,16 +32,53 @@
 }
 
 .Feature__img {
-  height: 95%;
-  width: 45%;
-  max-width: 45%;
+  height: auto;
+  width: 65%;
   margin: auto 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .Feature__img img {
   width: auto;
-  /* width: 100%; */
-  /* height: 100%; */
+  max-width: 100%;
+  max-height: 40rem;
+}
+
+@media screen and (max-width: 1336px) {
+  .Feature__desc {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+}
+
+@media screen and (max-width: 836px) {
+  .Feature {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .Feature.small {
+    height: auto;
+  }
+
+  .Feature__info {
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .Feature__img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 636px) {
+}
+
+@media screen and (max-width: 500px) {
 }

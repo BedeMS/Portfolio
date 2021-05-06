@@ -8,7 +8,7 @@ function Video(props) {
       className="Video"
       url={props.video}
       width="100%"
-      height="100%"
+      height="auto"
       playing={true}
       muted={true}
       controls={true}
