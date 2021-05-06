@@ -1,9 +1,7 @@
 import React from "react";
-import Heading from "../../elements/Heading/Heading";
 import "./Project.css";
 import Card from "../Card/Card";
 import ZoomCard from "../Card/Zoom/ZoomCard";
-import Modal from "../Modal/Modal";
 
 function Project(props) {
   return (

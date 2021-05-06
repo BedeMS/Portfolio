@@ -8,7 +8,7 @@ function About(props) {
     <div className="About">
       <div className="LeftSide">
         <div className="Photo">
-          <img src={Profile} alt="About Picture" />
+          <img src={Profile} alt="About" />
         </div>
         <div className="Skills">
           <Progress label="HTML5/CSS/SASS" width="90" />

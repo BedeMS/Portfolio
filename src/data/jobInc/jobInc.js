@@ -1,4 +1,3 @@
-import uniqid from "uniqid";
 import jobIncBackground from "./jobincBackground.png";
 import companies from "./companies.png";
 import editJob from "./editJob.png";
@@ -9,12 +8,12 @@ import featuredJobs from "./featuredJobs.png";
 
 import video from "./jobIncVideo.mov";
 
-export default {
+const jobInc = {
   id: "jobInc",
   title: "Job Inc",
   stack: ["react", "css3"],
   backgroundImg: jobIncBackground,
-  link: "www.bedemarcos.com",
+  link: "www.job-inc.com",
   github: "www.github.com/bedemarcos",
   details: ["Employer/Employee", "Job Search", "Create Job Post"],
   video: video,
@@ -58,3 +57,5 @@ export default {
     },
   ],
 };
+
+export default jobInc;

@@ -1,10 +1,10 @@
-import uniqid from "uniqid";
+
 import myfinanceBackground from "./myfinanceBackground.png";
 import grid from "./grid.png";
 import form from "./form.png";
 import video from "./myFinanceVideo.mov";
 
-export default {
+const myFinances = {
   id: "myFinances",
   title: "My Finances",
   stack: ["react", "css3"],
@@ -27,3 +27,6 @@ export default {
     }
   ],
 };
+
+
+export default myFinances;

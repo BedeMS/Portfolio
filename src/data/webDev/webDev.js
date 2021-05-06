@@ -1,4 +1,3 @@
-import uniqid from "uniqid";
 import webdevBackground from "./webdevBackground.png";
 import responsive from "./responsive.png";
 import formData from "./formData.png";
@@ -7,7 +6,7 @@ import animatedBackground from "./animatedBackground.png";
 import animatedBackground2 from "./animatedBackground2.png";
 import video from "./webDevVideo.mov";
 
-export default {
+const webDev = {
   id: "webDev",
   title: "Web Dev Roadmap",
   stack: ["js", "sass"],
@@ -48,3 +47,5 @@ export default {
     },
   ],
 };
+
+export default webDev;

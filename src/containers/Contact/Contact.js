@@ -8,7 +8,6 @@ import checkForm from "../../validation/contactValidation";
 import emailjs from "emailjs-com";
 import useToggle from "../../hooks/useToggleHook";
 import "./Contact.css";
-import Confirmation from "./Confirmation/Confirmation";
 
 const contactForm = {
   name: "",
@@ -28,7 +27,7 @@ function Contact(props) {
         sendEmail();
       }
     }
-  }, [errors]);
+  });
 
   const handleSubmit = (e) => {
     e.preventDefault();

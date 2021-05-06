@@ -1,4 +1,4 @@
-import uniqid from "uniqid";
+
 import khariBackground from "./khariBackground.png";
 import cart from "./cart.png";
 import cartOptions from "./cartOptions.png";
@@ -8,12 +8,12 @@ import responsive from "./responsive.png";
 import selector from "./selector.png";
 import video from "./khariVideo.mov";
 
-export default {
+const khari = {
   id: "khari",
   title: "Khari",
   stack: ["js", "css3"],
   backgroundImg: khariBackground,
-  link: "www.khari.com",
+  link: "www.khari.ca",
   github: "www.github.com/bedemarcos",
   details: ["Apparel Store", "Modern Design", "E-commerce (Front-End only)"],
   video: video,
@@ -50,3 +50,5 @@ export default {
     },
   ],
 };
+
+export default khari;

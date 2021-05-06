@@ -24,7 +24,7 @@ function Feature(props) {
       </div>
       <Fade left delay={2000}>
         <div className="Feature__img">
-          <img src={props.featureImg} alt="Feature Image" />
+          <img src={props.featureImg} alt="Feature" />
         </div>
       </Fade>
     </div>

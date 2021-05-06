@@ -1,7 +1,6 @@
 import React from "react";
 import "./Card.css";
 import CardIcons from "../../elements/CardIcons/CardIcons";
-import Button from "../../elements/Button/Button";
 import uniqid from "uniqid";
 
 function Card(props) {

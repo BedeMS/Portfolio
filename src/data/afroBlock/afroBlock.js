@@ -1,4 +1,3 @@
-import uniqid from "uniqid";
 import afroblockBackground from "./afroblockBackground.png";
 import responsive from "./responsive.png";
 import formControl from "./formControl.png";
@@ -6,12 +5,12 @@ import formValidation from "./formValidation.png";
 import layout from "./layout.png";
 import afroBlockVideo from "./afroBlockVideo.mov";
 
-export default {
+const afroBlock = {
   id: "afroBlock",
   title: "Afro-Block",
   stack: ["js", "sass"],
   backgroundImg: afroblockBackground,
-  link: "www.afro-block.com",
+  link: "www.afro-block.co",
   github: "www.github.com/bedemarcos",
   details: ["African Promotion", "Afro Business Community"],
   video: afroBlockVideo,
@@ -39,3 +38,5 @@ export default {
     },
   ],
 };
+
+export default afroBlock;

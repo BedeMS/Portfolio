@@ -1,4 +1,3 @@
-import uniqid from "uniqid";
 import visitEthiopiaBackground from "./visitEthiopiaBackground.png";
 import slider from "./slider.png";
 import menu from "./menu.png";
@@ -7,7 +6,7 @@ import imageSlide from "./imageSlide.png";
 import map from "./map.png";
 import video from "./visitEthiopiaVideo.mov";
 
-export default {
+const visitEthiopia = {
   id: "visitEthiopia",
   title: "Visit Ethiopia",
   stack: ["js", "sass"],
@@ -45,3 +44,5 @@ export default {
     },
   ],
 };
+
+export default visitEthiopia;

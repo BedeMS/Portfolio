@@ -5,4 +5,6 @@ import webDev from "./webDev/webDev";
 import khari from "./khari/khari";
 import visitEthiopia from "./visitEthiopia/visitEthiopia";
 
-export default [myFinance, jobInc, webDev, visitEthiopia, khari, afroBlock];
+const projects = [myFinance, jobInc, webDev, visitEthiopia, khari, afroBlock];
+
+export default projects;
