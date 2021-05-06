@@ -11,7 +11,7 @@ const afroBlock = {
   stack: ["js", "sass"],
   backgroundImg: afroblockBackground,
   link: "https://www.afro-block.co",
-  github: "https://www.github.com/bedemarcos",
+  github: "https://www.github.com/BedeMS/afro-block",
   details: ["African Promotion", "Afro Business Community"],
   video: afroBlockVideo,
   zoom: true,

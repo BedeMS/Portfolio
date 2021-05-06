@@ -12,7 +12,7 @@ const webDev = {
   stack: ["js", "sass"],
   backgroundImg: webdevBackground,
   link: "https://www.webdevroadmaps.com",
-  github: "https://www.github.com/bedemarcos",
+  github: "https://www.github.com/BedeMS/roadmap",
   details: ["Developer Guide", "Self Taught Roadmap", "Cirriculum"],
   video: video,
   zoom: true,

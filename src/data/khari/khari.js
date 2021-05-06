@@ -14,7 +14,7 @@ const khari = {
   stack: ["js", "css3"],
   backgroundImg: khariBackground,
   link: "https://www.khari.ca",
-  github: "https://www.github.com/bedemarcos",
+  github: "https://www.github.com/BedeMS/khari",
   details: ["Apparel Store", "Modern Design", "E-commerce (Front-End only)"],
   video: video,
   zoom: false,

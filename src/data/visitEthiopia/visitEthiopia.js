@@ -12,7 +12,7 @@ const visitEthiopia = {
   stack: ["js", "sass"],
   backgroundImg: visitEthiopiaBackground,
   link: "https://www.visit-Ethiopia.org",
-  github: "https://www.github.com/bedemarcos",
+  github: "https://www.github.com/BedeMS/visitEthiopia",
   details: ["Tourism", "Travel Assitance", "Map Guide"],
   video: video,
   zoom: false,

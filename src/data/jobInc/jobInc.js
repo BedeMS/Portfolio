@@ -14,7 +14,7 @@ const jobInc = {
   stack: ["react", "css3"],
   backgroundImg: jobIncBackground,
   link: "https://www.job-inc.com",
-  github: "https://www.github.com/bedemarcos",
+  github: "https://www.github.com/BedeMS/Job-Inc",
   details: ["Employer/Employee", "Job Search", "Create Job Post"],
   video: video,
   zoom: false,
