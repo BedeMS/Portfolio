@@ -15,13 +15,25 @@ function Nav({ isNavOpen, navToggle }) {
         Bede Marcos
       </Link>
       <div className="Nav__list">
-        <Link to="/About" className="Nav__list-item">
+        <Link
+          to="/About"
+          className="Nav__list-item"
+          onClick={isNavOpen ? () => navToggle() : ""}
+        >
           About
         </Link>
-        <Link to="/Projects" className="Nav__list-item">
+        <Link
+          to="/Projects"
+          className="Nav__list-item"
+          onClick={isNavOpen ? () => navToggle() : ""}
+        >
           Projects
         </Link>
-        <Link to="/Contact" className="Nav__list-item">
+        <Link
+          to="/Contact"
+          className="Nav__list-item"
+          onClick={isNavOpen ? () => navToggle() : ""}
+        >
           Contact
         </Link>
       </div>
