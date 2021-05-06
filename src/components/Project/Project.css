@@ -10,3 +10,41 @@
   height: 17.5rem;
   margin: 0 auto;
 }
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1336px) {
+}
+
+@media screen and (max-width: 1136px) {
+  .Project__card {
+    width: 15.5rem;
+    height: 15.5rem;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .Project__card {
+    width: 14rem;
+    height: 14rem;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .Project {
+    width: 75%;
+    height: 22rem;
+  }
+  .Project__card {
+    width: 17.5rem;
+    height: 17.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Project__card {
+    width: 14rem;
+    height: 14rem;
+  }
+}

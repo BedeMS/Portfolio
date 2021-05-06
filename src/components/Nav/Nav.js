@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./Nav.css";
 
 function Nav({ isNavOpen, navToggle }) {
+  const handleClick = () => {
+    if (isNavOpen) navToggle();
+  };
   return (
     <div className={`Nav ${isNavOpen && "Nav__view"}`}>
       <FontAwesomeIcon
@@ -11,33 +14,17 @@ function Nav({ isNavOpen, navToggle }) {
         className="Nav__close"
         onClick={() => navToggle()}
       />
-      <Link
-        to="/"
-        className="Nav__logo"
-        onClick={isNavOpen ? () => navToggle() : ""}
-      >
+      <Link to="/" className="Nav__logo" onClick={handleClick}>
         Bede Marcos
       </Link>
       <div className="Nav__list">
-        <Link
-          to="/About"
-          className="Nav__list-item"
-          onClick={isNavOpen ? () => navToggle() : ""}
-        >
+        <Link to="/About" className="Nav__list-item" onClick={handleClick}>
           About
         </Link>
-        <Link
-          to="/Projects"
-          className="Nav__list-item"
-          onClick={isNavOpen ? () => navToggle() : ""}
-        >
+        <Link to="/Projects" className="Nav__list-item" onClick={handleClick}>
           Projects
         </Link>
-        <Link
-          to="/Contact"
-          className="Nav__list-item"
-          onClick={isNavOpen ? () => navToggle() : ""}
-        >
+        <Link to="/Contact" className="Nav__list-item" onClick={handleClick}>
           Contact
         </Link>
       </div>
