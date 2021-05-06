@@ -29,7 +29,7 @@ function Nav({ isNavOpen, navToggle }) {
         </Link>
       </div>
       <div className="Nav__social">
-        <a href="https://www.github.com/bedemarcos" target="_blank" el="noreferrer" className="Nav__social-icon github">
+        <a href="https://www.github.com/BedeMS" target="_blank" el="noreferrer" className="Nav__social-icon github">
           Github: BedeMarcos
         </a>
         {/* <Link to="/" className="Nav__social-icon">
