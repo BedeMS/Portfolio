@@ -53,9 +53,6 @@
   }
 }
 
-@media screen and (max-width: 1136px) {
-}
-
 @media screen and (max-width: 836px) {
   .Feature {
     flex-direction: column;
@@ -77,8 +74,4 @@
   }
 }
 
-@media screen and (max-width: 636px) {
-}
 
-@media screen and (max-width: 500px) {
-}

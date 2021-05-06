@@ -58,19 +58,11 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1500px) {
-}
 
 @media screen and (max-width: 1336px) {
   .Modal-container {
     width: 90%;
   }
-}
-
-@media screen and (max-width: 1136px) {
-}
-
-@media screen and (max-width: 836px) {
 }
 
 @media screen and (max-width: 636px) {
@@ -80,7 +72,4 @@
   .Modal__scroll {
     display: none;
   }
-}
-
-@media screen and (max-width: 500px) {
 }

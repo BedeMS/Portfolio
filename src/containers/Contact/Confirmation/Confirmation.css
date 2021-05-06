@@ -10,9 +10,28 @@
 .Confirmation__title {
   font-size: 3rem;
   font-weight: 600;
-
 }
 
 .Confirmation__desc {
   font-size: 2.4rem;
+}
+
+@media screen and (max-width: 1136px) {
+  .Confirmation__title {
+    font-size: 2rem;
+  }
+
+  .Confirmation__desc {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .Confirmation__title {
+    font-size: 1.7rem;
+  }
+
+  .Confirmation__desc {
+    font-size: 1.3rem;
+  }
 }

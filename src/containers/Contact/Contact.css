@@ -10,21 +10,10 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 1500px) {
-  
-}
-
-@media screen and (max-width: 1336px) {
-
-}
-
 @media screen and (max-width: 1136px) {
   .Contact {
     width: 75%;
   }
-}
-
-@media screen and (max-width: 836px) {
 }
 
 @media screen and (max-width: 636px) {
@@ -33,5 +22,3 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-}
