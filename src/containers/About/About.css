@@ -1,6 +1,6 @@
 .About {
   width: 80%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -14,12 +14,14 @@
 
 .Photo {
   height: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .Photo img {
   height: 100%;
+  width: auto;
 }
 
 .Skills {
@@ -30,7 +32,6 @@
   flex-direction: column;
   justify-content: space-around;
   background-color: #d4d4d4;
-  /* border: 1px solid #000000; */
 }
 
 /* Right Side of Page */
@@ -51,6 +52,90 @@
 }
 
 .Desc__interests-item {
-  margin: 2rem auto;
+  margin: 1rem auto;
   font-size: 1.6rem;
+}
+
+@media screen and (max-width: 1500px) {
+}
+
+@media screen and (max-width: 1336px) {
+  .Desc {
+    width: 50%;
+    height: 90%;
+  }
+
+  .Desc__interests-item {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 1136px) {
+  .About {
+    flex-direction: column;
+    margin: 4rem 0;
+  }
+
+  .LeftSide,
+  .Desc {
+    width: 90%;
+    height: auto;
+  }
+
+  .Photo {
+    height: auto;
+    width: 100%;
+  }
+
+  .Photo img {
+    height: 25rem;
+    width: auto;
+  }
+
+  .Skills {
+    width: 75%;
+    height: auto;
+    margin: 2rem auto;
+    background-color: #d4d4d494;
+  }
+
+  .Desc {
+    text-align: center;
+  }
+
+  .Desc__about {
+    height: auto;
+    font-size: 1.4rem;
+    margin: 2rem auto;
+  }
+
+  .Desc__interests {
+    height: auto;
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .Photo img {
+    height: 25em;
+    width: auto;
+  }
+
+  .Skills {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 636px) {
+  .About {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Photo img {
+    height: 15rem;
+    width: auto;
+  }
 }

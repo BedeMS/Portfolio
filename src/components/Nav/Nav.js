@@ -11,7 +11,11 @@ function Nav({ isNavOpen, navToggle }) {
         className="Nav__close"
         onClick={() => navToggle()}
       />
-      <Link to="/" className="Nav__logo">
+      <Link
+        to="/"
+        className="Nav__logo"
+        onClick={isNavOpen ? () => navToggle() : ""}
+      >
         Bede Marcos
       </Link>
       <div className="Nav__list">
