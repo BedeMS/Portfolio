@@ -31,3 +31,11 @@
   font-size: 1.7rem;
   outline: none;
 }
+
+
+@media screen and (max-width: 1336px) {
+  .TextareaWrapper {
+    flex-direction: column;
+    margin: 0;
+  }
+}
