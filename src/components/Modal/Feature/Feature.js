@@ -11,7 +11,7 @@ function Feature(props) {
       }`}
     >
       <div className="Feature__info">
-        <Fade right delay={1000}>
+        <Fade right delay={500}>
           {props.desc.map((item) => {
             return (
               <p key={uniqid()} className="Feature__desc">
@@ -22,7 +22,7 @@ function Feature(props) {
           <p>  </p>
         </Fade>
       </div>
-      <Fade left delay={2000}>
+      <Fade left delay={500}>
         <div className="Feature__img">
           <img src={props.featureImg} alt="Feature" />
         </div>
