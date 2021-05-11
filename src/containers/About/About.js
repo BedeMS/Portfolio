@@ -9,7 +9,7 @@ function About(props) {
       <div className="LeftSide">
         <div className="Photo">
           <img src={Profile} alt="About" />
-        </div>
+        </div> 
         <div className="Skills">
           <Progress label="HTML5/CSS/SASS" width="90" />
           <Progress label="Javascript" width="80" />
@@ -35,16 +35,16 @@ function About(props) {
         <ul className="Desc__interests">
           <li className="Desc__interests-title">My Interests</li>
           <li className="Desc__interests-item">
-            Usually, the source of truth is implemented
+            Investments and Securities
           </li>
           <li className="Desc__interests-item">
-            Usually, the source of truth is implemented
+            Arsenal Arsenal Arsenal
           </li>
           <li className="Desc__interests-item">
-            Usually, the source of truth is implemented
+            Start-ups
           </li>
           <li className="Desc__interests-item">
-            Usually, the source of truth is implemented
+            Riding Motor Bikes
           </li>
         </ul>
       </div>
