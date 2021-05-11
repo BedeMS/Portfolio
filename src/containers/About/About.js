@@ -9,7 +9,7 @@ function About(props) {
       <div className="LeftSide">
         <div className="Photo">
           <img src={Profile} alt="About" />
-        </div> 
+        </div>
         <div className="Skills">
           <Progress label="HTML5/CSS/SASS" width="90" />
           <Progress label="Javascript" width="80" />
@@ -20,32 +20,25 @@ function About(props) {
       </div>
       <div className="Desc">
         <p className="Desc__about">
-          Usually, the source of truth is implemented in the component that
-          needs it for rendering. So in our case, we manage state in our
-          containing app component at the very top. From this app component,
-          data is passed down the component tree via props. Usually, the source
-          of truth is implemented in the component that needs it for rendering.
-          So in our case, we manage state in our containing app component at the
-          very top. From this app component, data is passed down the component
-          tree via props. Usually, the source of truth is implemented in the
-          component that needs it for rendering. So in our case, we manage state
-          in our containing app component at the very top. From this app
-          component, data is passed down the component tree via props.
+          Hi, I'm Bede Marcos. I'm a front-end developer that's currently
+          residing in Toronto. I enjoy looking for opportunities in the world
+          and trying to experience new things. In the past year, I've been
+          working on projects that I think are solutions to problems in the
+          market. <br></br>Ex: Visit Ethiopia. This project takes the
+          opportunity to show tourist what Ethiopia has to offer. Ethiopia lacks
+          a modern tourism website that displays all its history and culture
+          along with important information for our visitors. <br></br> The
+          motivation to create these projects comes from the opportunity they
+          present in the world. Even then designing and executing on ideas like
+          Khari have been challenging because its complexity with product
+          categories, products, and a cart.
         </p>
         <ul className="Desc__interests">
           <li className="Desc__interests-title">My Interests</li>
-          <li className="Desc__interests-item">
-            Investments and Securities
-          </li>
-          <li className="Desc__interests-item">
-            Arsenal Arsenal Arsenal
-          </li>
-          <li className="Desc__interests-item">
-            Start-ups
-          </li>
-          <li className="Desc__interests-item">
-            Riding Motor Bikes
-          </li>
+          <li className="Desc__interests-item">Investments and Securities</li>
+          <li className="Desc__interests-item">Arsenal Arsenal Arsenal</li>
+          <li className="Desc__interests-item">Start-ups</li>
+          <li className="Desc__interests-item">Riding Motor Bikes</li>
         </ul>
       </div>
     </div>
