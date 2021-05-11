@@ -32,6 +32,8 @@ function About(props) {
           present in the world. Even then designing and executing on ideas like
           Khari have been challenging because its complexity with product
           categories, products, and a cart.
+          <br></br>I'm always looking forward to working on new challenges and
+          meeting people along the way.
         </p>
         <ul className="Desc__interests">
           <li className="Desc__interests-title">My Interests</li>
