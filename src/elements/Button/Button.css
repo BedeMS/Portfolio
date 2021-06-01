@@ -15,6 +15,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.Button:hover {
+.Button:hover,
+.Button:focus {
   background-color: #e7bdbd;
 }

@@ -21,19 +21,20 @@ function About(props) {
       <div className="Desc">
         <p className="Desc__about">
           Hi, I'm Bede Marcos. I'm a front-end developer that's currently
-          residing in Toronto. I enjoy looking for opportunities in the world
-          and trying to experience new things. In the past year, I've been
-          working on projects that I think are solutions to problems in the
-          market. <br></br>Ex: Visit Ethiopia. This project takes the
-          opportunity to show tourist what Ethiopia has to offer. Ethiopia lacks
-          a modern tourism website that displays all its history and culture
-          along with important information for our visitors. <br></br> The
-          motivation to create these projects comes from the opportunity they
-          present in the world. Even then designing and executing on ideas like
-          Khari have been challenging because its complexity with product
-          categories, products, and a cart.
-          <br></br>I'm always looking forward to working on new challenges and
-          meeting people along the way.
+          residing in Toronto, Canada. I enjoy looking for new opportunities
+          around world and am always looking to experience new things. In the
+          past year, I've been working on projects that provide solutions to
+          problems that exist market. <br></br>Ex: Visit Ethiopia. Ethiopia
+          lacks a modern tourism website that displays all its history and
+          culture along with important information for our visitors. This
+          project takes the opportunity to show tourist what Ethiopia has to
+          offer. <br></br> The motivation to create these projects comes from
+          the duty to create solutions to problems around us. Even then
+          designing and executing on ideas like Khari has been challenging
+          because of its complexity with categories, products, and a complete
+          cart.
+          <br></br>As a developer, I'm always looking forward to working on new
+          challenges and meeting people along the way.
         </p>
         <ul className="Desc__interests">
           <li className="Desc__interests-title">My Interests</li>

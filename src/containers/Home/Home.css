@@ -128,7 +128,8 @@
   z-index: 10;
 }
 
-.Project__title:hover {
+.Project__title:hover,
+.Project__title:focus {
   color: #ffffff;
   cursor: pointer;
 }

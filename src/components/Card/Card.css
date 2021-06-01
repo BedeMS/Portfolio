@@ -55,11 +55,13 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-.Card:hover {
+.Card:hover,
+.Card:focus {
   transform: rotateX(-180deg);
 }
 
-.Card:hover .Card-front:after {
+.Card:hover .Card-front:after,
+.Card:focus .Card-front:after {
   background-color: transparent;
 }
 

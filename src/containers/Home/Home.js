@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
-function Home({history, openModal }) {
+function Home({ history, openModal }) {
   const handleClick = (e) => {
     const id = e.target.id;
     history.push("/Projects");
@@ -16,19 +16,25 @@ function Home({history, openModal }) {
         <div className="perspective">
           <div className="Project__a">
             <div className="project__in"></div>
-            <h1 className="Project__title" id="jobInc" onClick={handleClick}>
+            <a
+              href="#"
+              className="Project__title"
+              id="jobInc"
+              onClick={handleClick}
+            >
               Job Inc.
-            </h1>
+            </a>
           </div>
           <div className="Project__b">
             <div className="project__in"></div>
-            <h1
+            <a
+              href="#"
               className="Project__title"
               id="visitEthiopia"
               onClick={handleClick}
             >
               Visit Ethiopia
-            </h1>
+            </a>
           </div>
         </div>
       </div>
@@ -37,9 +43,14 @@ function Home({history, openModal }) {
         <div className="perspective">
           <div className="Project__c">
             <div className="project__in"></div>
-            <h1 className="Project__title" id="webDev" onClick={handleClick}>
+            <a
+              href="#"
+              className="Project__title"
+              id="webDev"
+              onClick={handleClick}
+            >
               Web Dev Roadmap
-            </h1>
+            </a>
           </div>
           <div className="Project__d">
             <div className="project__in"></div>
@@ -54,5 +65,3 @@ function Home({history, openModal }) {
 }
 
 export default Home;
-
-

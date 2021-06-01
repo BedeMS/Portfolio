@@ -36,7 +36,8 @@
   color: #ffffff;
 }
 
-.ZoomCard:hover {
+.ZoomCard:hover,
+.ZoomCard:focus {
   background-size: 50rem;
 }
 
