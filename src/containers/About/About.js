@@ -22,14 +22,14 @@ function About(props) {
         <p className="Desc__about">
           Hi, I'm Bede Marcos. I'm a front-end developer that's currently
           residing in Toronto, Canada. I enjoy looking for new opportunities
-          around world and am always looking to experience new things. In the
+          around the world and I'm always looking to experience new things. In the
           past year, I've been working on projects that provide solutions to
-          problems that exist market. <br></br>Ex: Visit Ethiopia. Ethiopia
+          problems that exist in the market. <br></br>Ex: Visit Ethiopia. Ethiopia
           lacks a modern tourism website that displays all its history and
-          culture along with important information for our visitors. This
-          project takes the opportunity to show tourist what Ethiopia has to
+          culture along with important information for our tourists. This
+          project takes the opportunity to show our visitors what Ethiopia has to
           offer. <br></br> The motivation to create these projects comes from
-          the duty to create solutions to problems around us. Even then
+          the energy I get in venturing into new problems and all its possibilities. Even then,
           designing and executing on ideas like Khari has been challenging
           because of its complexity with categories, products, and a complete
           cart.
@@ -41,7 +41,7 @@ function About(props) {
           <li className="Desc__interests-item">Investments and Securities</li>
           <li className="Desc__interests-item">Arsenal Arsenal Arsenal</li>
           <li className="Desc__interests-item">Start-ups</li>
-          <li className="Desc__interests-item">Riding Motor Bikes</li>
+          <li className="Desc__interests-item">Motor Bikes </li>
         </ul>
       </div>
     </div>
