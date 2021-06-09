@@ -4,14 +4,16 @@ import CardIcons from "../../elements/CardIcons/CardIcons";
 import uniqid from "uniqid";
 
 function Card(props) {
-
   const handleClick = () => {
-    props.handleClick(props.id)
-  }
-
+    props.handleClick(props.id);
+  };
 
   return (
-    <div className="Card__container" onClick={handleClick}>
+    <button
+      aria-label={`View ${props.title} project, which is: ${props.details}`}
+      className="Card__container"
+      onClick={handleClick}
+    >
       <div className="Card">
         <div
           className="Card__content Card-front"
@@ -37,7 +39,7 @@ function Card(props) {
           </div>
         </div>
       </div>
-    </div>
+    </button>
   );
 }
 

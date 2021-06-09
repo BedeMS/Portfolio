@@ -17,6 +17,8 @@ function Home({ history, openModal }) {
           <div className="Project__a">
             <div className="project__in"></div>
             <a
+              aria-label="Job Inc. Project"
+              role="button"
               href="#"
               className="Project__title"
               id="jobInc"
@@ -28,6 +30,8 @@ function Home({ history, openModal }) {
           <div className="Project__b">
             <div className="project__in"></div>
             <a
+              aria-label="View Visit Ethiopia Project"
+              role="button"
               href="#"
               className="Project__title"
               id="visitEthiopia"
@@ -44,6 +48,8 @@ function Home({ history, openModal }) {
           <div className="Project__c">
             <div className="project__in"></div>
             <a
+              aria-label="View Web Dev Roadmap Project"
+              role="button"
               href="#"
               className="Project__title"
               id="webDev"
@@ -54,7 +60,11 @@ function Home({ history, openModal }) {
           </div>
           <div className="Project__d">
             <div className="project__in"></div>
-            <Link to="/Projects" className="Project__More">
+            <Link
+              aria-label="View more Project"
+              to="/Projects"
+              className="Project__More"
+            >
               More Projects
             </Link>
           </div>

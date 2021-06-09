@@ -9,7 +9,8 @@ function ZoomCard(props) {
   };
 
   return (
-    <div
+    <button
+      aria-label={`View ${props.title} project, which is: ${props.details}`}
       onClick={handleClick}
       className="ZoomCard"
       style={{ backgroundImage: `url(${props.backgroundImg})` }}
@@ -26,7 +27,7 @@ function ZoomCard(props) {
           })}
       </div>
       <CardIcons stack={props.stack} />
-    </div>
+    </button>
   );
 }
 
