@@ -1,4 +1,3 @@
-
 import khariBackground from "./khariBackground.png";
 import cart from "./cart.png";
 import cartOptions from "./cartOptions.png";
@@ -15,7 +14,12 @@ const khari = {
   backgroundImg: khariBackground,
   link: "https://www.khari.ca",
   github: "https://www.github.com/BedeMS/khari",
-  details: ["Apparel Store", "Modern Design", "E-commerce (Front-End only)"],
+  details: [
+    "** Currently being overhauled **",
+    "Apparel Store",
+    "Modern Design",
+    "E-commerce (Front-End only)",
+  ],
   video: video,
   zoom: false,
   features: [
