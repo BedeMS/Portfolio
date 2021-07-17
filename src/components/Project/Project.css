@@ -1,16 +1,26 @@
 .Project {
   width: 50%;
+  height: auto;
   /* height: 100%; */
   /* margin: 1rem auto; */
   /* border: 1px solid #000000; */
 }
 
+.Project__card-skills {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.Project__card-skills p {
+  width: 45%;
+  text-align: center;
+}
+
 .Project__card {
   width: 16.5rem;
   height: 16.5rem;
-  margin: 0 auto;
+  margin: 3rem auto 3rem;
 }
-
 
 @media screen and (max-width: 1136px) {
   .Project__card {
@@ -34,6 +44,9 @@
   .Project__card {
     width: 17.5rem;
     height: 17.5rem;
+  }
+  .Project__card-skills p {
+    width: 100%;
   }
 }
 

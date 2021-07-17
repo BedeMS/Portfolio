@@ -12,6 +12,7 @@ const jobInc = {
   id: "jobInc",
   title: "Job Inc",
   stack: ["react", "css3"],
+  skills: ["Job Listing", "Promotions"],
   backgroundImg: jobIncBackground,
   link: "https://www.job-inc.com",
   github: "https://www.github.com/BedeMS/Job-Inc",

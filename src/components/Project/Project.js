@@ -7,6 +7,10 @@ function Project(props) {
   return (
     <div className="Project">
       <div className="Project__card">
+        <h3>{props.title}</h3>
+        <div className="Project__card-skills">
+          {props.skills && props.skills.map((skill) => <p>{skill}</p>)}
+        </div>
         {props.zoom ? (
           <ZoomCard
             id={props.id}

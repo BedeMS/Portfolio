@@ -10,6 +10,7 @@ const webDev = {
   id: "webDev",
   title: "Web Dev Roadmap",
   stack: ["js", "sass"],
+  skills: ["Canvas", "Animations"],
   backgroundImg: webdevBackground,
   link: "https://www.webdevroadmaps.com",
   github: "https://www.github.com/BedeMS/roadmap",

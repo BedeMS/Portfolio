@@ -10,6 +10,7 @@ const visitEthiopia = {
   id: "visitEthiopia",
   title: "Visit Ethiopia",
   stack: ["js", "sass"],
+  skills: ["Map", "Slides Images"],
   backgroundImg: visitEthiopiaBackground,
   link: "https://www.visit-Ethiopia.org",
   github: "https://www.github.com/BedeMS/visitEthiopia",

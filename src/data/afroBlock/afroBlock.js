@@ -9,6 +9,7 @@ const afroBlock = {
   id: "afroBlock",
   title: "Afro-Block",
   stack: ["js", "sass"],
+  skills: ["Business Registration Form"],
   backgroundImg: afroblockBackground,
   link: "https://www.afro-block.co",
   github: "https://www.github.com/BedeMS/afro-block",

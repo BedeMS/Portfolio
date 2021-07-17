@@ -11,6 +11,7 @@ const khari = {
   id: "khari",
   title: "Khari",
   stack: ["js", "css3"],
+  skills: ["E-Commerce"],
   backgroundImg: khariBackground,
   link: "https://www.khari.ca",
   github: "https://www.github.com/BedeMS/khari",
